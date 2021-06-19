@@ -31,7 +31,7 @@ int mode(int arr[],int a)
   for(int i=0; i<= max_ele; i++){
     arr[i]=0;
     for(int j = 0; j < a; j++){
-         if(a[j] == i){
+         if(arr[j] == i){
             ab[i]++;
     }
     }
@@ -56,7 +56,7 @@ int factors(int b,int re[]){
         b = b/2;
         
     }
-for (int i = 3; i <= sqrt(b); i = i+2)
+for (int i = 3; i <= sqrt((double)b); i = i+2)
     { while (b%i == 0)
         {   ct++;
             re[ct] = i;   
