@@ -17,7 +17,7 @@ int min(int arr[],int a)
 }
 
 int average(int arr[],int a)
-  float sum=0,avg;
+{float sum=0,avg;
 for(int i=0;i<a;i++)
     {sum=sum+arr[i];}
     avg=sum/a;
