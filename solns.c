@@ -56,7 +56,8 @@ int factors(int b,int re[]){
         b = b/2;
         
     }
-for (int i = 3; i <= sqrt((double)b); i = i+2)
+ int x=sqrt((double)b)
+for (int i = 3; i <= x; i = i+2)
     { while (b%i == 0)
         {   ct++;
             re[ct] = i;   
